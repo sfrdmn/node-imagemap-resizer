@@ -1,0 +1,42 @@
+{
+  "name": "imagemap-resizer",
+  "version": "0.0.1",
+  "description": "Allows dynamic resizing of imagemaps",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sfrdmn/node-imagemap-resizer"
+  },
+  "keywords": [
+    "imagemap",
+    "resize",
+    "browser"
+  ],
+  "author": "Sean Fridman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfrdmn/node-imagemap-resizer/issues"
+  },
+  "homepage": "https://github.com/sfrdmn/node-imagemap-resizer",
+  "dependencies": {},
+  "testling": {
+    "files": "tests/*.js"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "devDependencies": {
+    "tape": "^2.13.3",
+    "testling": "^1.7.0",
+    "browserify": "^4.2.1",
+    "tap-colorize": "^1.2.0",
+    "send": "^0.6.0",
+    "domready": "^1.0.5",
+    "brfs": "^1.2.0"
+  }
+}
