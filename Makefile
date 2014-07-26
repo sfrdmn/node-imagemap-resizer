@@ -9,4 +9,8 @@ test:
 example: bundle_example
 	node example/server.js
 
+publish: bundle_example
+	git subtree split -P example/ -b gh-pages
+	git push origin/gh-pages
+
 .PHONY: test example
