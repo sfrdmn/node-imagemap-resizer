@@ -1,0 +1,87 @@
+html, body, .container  {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  top: 0;
+  -webkit-animation: ocean 10s linear infinite;
+  -webkit-animation-play-state: running;
+  -moz-animation: ocean 10s linear infinite;
+  -moz-animation-play-state: running;
+  background-image: url(water.jpg);
+}
+
+a {
+  font-family: "Arial" sans-serif;
+  color: #0000ff;
+  color: rgba(0, 0, 255, 0.25);
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 0, 255, 1);
+  border-bottom: 4px solid rgba(0, 0, 255, 1);;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.75em 1em;
+}
+
+.container {
+  display: inline-block;
+}
+
+.nirvana-dialog {
+  position: relative;
+  top: 0;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.nirvana-dialog img {
+  vertical-align: top;
+  max-width: 97%;
+}
+
+.nirvana-dialog .nirvana {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nirvana-hover {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@-webkit-keyframes ocean {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px -159px;
+  }
+}
+
+@-moz-keyframes ocean {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px -159px;
+  }
+}
