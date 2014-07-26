@@ -6,7 +6,11 @@
 Problem: You've got all these imagemaps, but if you resize their respective images, they break!
 So here's a handy Node module to resize those imagemaps for ya
 
+To run the example do a `npm install && make example`
+
 ## Example usage
+
+*Note* imagemap-resizer only supports images which are already loaded. If you call it on an unloaded image, it'll likely break
 
 ```Javascript
 var createResizer = require('imagemap-resizer')
