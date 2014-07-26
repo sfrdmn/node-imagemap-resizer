@@ -2,7 +2,7 @@
 ;(function() {
 
   var domready = require('domready')
-  var createImagemapResizer = require('imagemap-resizer')
+  var createImagemapResizer = require('../')
 
   var oceanSound = new Audio('ocean.mp3')
   oceanSound.volume = 0.1
@@ -56,7 +56,7 @@
 
 })();
 
-},{"domready":3,"imagemap-resizer":2}],2:[function(require,module,exports){
+},{"../":2,"domready":3}],2:[function(require,module,exports){
 ;(function(document) {
 
   if (!document) {
