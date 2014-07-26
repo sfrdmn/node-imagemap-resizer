@@ -1,7 +1,7 @@
 ;(function() {
 
   var domready = require('domready')
-  var createImagemapResizer = require('imagemap-resizer')
+  var createImagemapResizer = require('../')
 
   var oceanSound = new Audio('ocean.mp3')
   oceanSound.volume = 0.1
