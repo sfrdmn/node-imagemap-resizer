@@ -1,6 +1,6 @@
 {
   "name": "imagemap-resizer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Allows dynamic resizing of imagemaps",
   "main": "index.js",
   "scripts": {
